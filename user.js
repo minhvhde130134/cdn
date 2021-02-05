@@ -6,13 +6,12 @@ $("#locales").on('change', function() {
     }
     alert(1)
 });
+
 //Slide
-$('.carousel').carousel({
-        interval: 2000
-    })
-    //Ảnh sản phẩm index
+
+//Ảnh sản phẩm index
 $(".card-img-top").each(function(index, element) {
-    let src = $(this).attr('src');
+    let src = $(this).attr("data-src");
     let link = loadImage(src, 2);
     $(this).attr('src', link);
 });
