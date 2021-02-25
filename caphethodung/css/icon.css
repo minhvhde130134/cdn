@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'custom';
+  src: url('https://cdn.jsdelivr.net/gh/minhvhde130134/cdn/caphethodung/custom.ttf?raw=true') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  font-family: 'custom' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-product:before {
+  content: "\e903";
+}
+.icon-attribute .path1:before {
+  content: "\e905";
+  color: #000;
+}
+.icon-attribute .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: #0bc716;
+}
+.icon-logo-full:before {
+  content: "\e907";
+}
+.icon-logo:before {
+  content: "\e908";
+}
+.icon-edit:before {
+  content: "\e914";
+}
+.icon-minus:before {
+  content: "\e909";
+}
+.icon-plus:before {
+  content: "\e90a";
+}
+.icon-clear:before {
+  content: "\e910";
+}
+.icon-local_shipping:before {
+  content: "\e900";
+}
+.icon-person:before {
+  content: "\e90b";
+}
+.icon-star:before {
+  content: "\e911";
+}
+.icon-star_half:before {
+  content: "\e912";
+}
+.icon-star_outline:before {
+  content: "\e913";
+}
+.icon-account_circle:before {
+  content: "\e90c";
+}
+.icon-logout:before {
+  content: "\e901";
+}
+.icon-login:before {
+  content: "\e90d";
+}
+.icon-shopping_bag:before {
+  content: "\e90e";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-register:before {
+  content: "\e904";
+}
+.icon-user:before {
+  content: "\e90f";
+}
